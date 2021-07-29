@@ -14,8 +14,5 @@ COPY config.js /www/
 COPY src /www/src/
 RUN yarn build
 
-# start server
-CMD yarn start
-
 # expose server
 EXPOSE 9000
