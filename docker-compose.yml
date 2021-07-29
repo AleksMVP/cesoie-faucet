@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  eth-faucet:
+    build: ./
+    container_name: eth-faucet
+    ports:
+      - 9000:9000
+    restart: always

@@ -209,7 +209,7 @@ function renderApp () {
           }
         }, (
           state.transactions.map((txHash) => {
-            return link(`https://ropsten.etherscan.io/tx/${txHash}`, txHash)
+            return link(`https://cesoie.net/tx/${txHash}`, txHash)
           })
         ))
       ])
